@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJogoDaVelhaFatec.MainPage">
+
+    <Grid RowDefinitions="*, *, *, *"
+          ColumnDefinitions="*, *, *">
+        
+        <Label Grid.Row="0" Grid.Column="0"
+               Grid.ColumnSpan="3"
+               Text="JOGO DA VELHA" />
+
+        <Button Grid.Row="1" Grid.Column="0"
+                Clicked="Button_Clicked" x:Name="btn10" />
+        <Button Grid.Row="1" Grid.Column="1"
+                Clicked="Button_Clicked" x:Name="btn11" />
+        <Button Grid.Row="1" Grid.Column="2"
+                Clicked="Button_Clicked" x:Name="btn12" />
+
+        <Button Grid.Row="2" Grid.Column="0"
+                Clicked="Button_Clicked" x:Name="btn20" />
+        <Button Grid.Row="2" Grid.Column="1"
+                Clicked="Button_Clicked" x:Name="btn21" />
+        <Button Grid.Row="2" Grid.Column="2"
+                Clicked="Button_Clicked" x:Name="btn22" />
+
+        <Button Grid.Row="3" Grid.Column="0"
+                Clicked="Button_Clicked" x:Name="btn30" />
+        <Button Grid.Row="3" Grid.Column="1"
+                Clicked="Button_Clicked" x:Name="btn31" />
+        <Button Grid.Row="3" Grid.Column="2"
+                Clicked="Button_Clicked" x:Name="btn32" />
+
+    </Grid>
+    
+</ContentPage>

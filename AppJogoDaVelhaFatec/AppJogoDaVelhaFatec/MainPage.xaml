@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppJogoDaVelhaFatec.MainPage">
 
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="1,1">
+            <GradientStop Color="MediumPurple"
+                  Offset="0.0" />
+            <GradientStop Color="Purple"
+                  Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    
     <Grid RowDefinitions="*, *, *, *"
           ColumnDefinitions="*, *, *">
         
